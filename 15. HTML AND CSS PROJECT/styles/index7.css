@@ -57,6 +57,7 @@ a {
         display: flex;
         justify-content: space-between;
         width: 1174px;
+      
         margin: auto;
     }
     .realflex {
@@ -222,8 +223,4 @@ a {
             font-weight: bold;
             color: #1ABC9C;
         }
-      .foxthe img {
-          width: 20px;
-          height: 25px;
-          margin-bottom: 20px;
-      }
+   

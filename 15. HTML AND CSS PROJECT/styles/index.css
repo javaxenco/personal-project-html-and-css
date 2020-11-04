@@ -20,6 +20,7 @@ body {
             width: 1170px;
             margin: auto;
             height: 122px;
+            margin-top: 4px;
         }
     .welcome { 
         height: 120px;
@@ -50,15 +51,27 @@ body {
         flex-direction: column;
         margin-left: 20.1px;
        font-weight: 400;
+    }   
+    .nav a::before{
+        content: "";
+        width: 60px;
+        height: 4px;
+        position: absolute;
+        
+        margin-top: -55px;
     }
     .nav a:hover { 
          
      color:#1ABC9C;
        
     }
+    .nav a:hover::before{
+        background-color: #1ABC9C;
+    }
     .nav a { 
         text-decoration: none;
         color: white;
+        position: relative;
     }
     
     .icons {
