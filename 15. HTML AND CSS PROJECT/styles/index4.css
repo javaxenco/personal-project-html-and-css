@@ -1,0 +1,223 @@
+.sledushi { 
+    width: 100%;
+    position: relative;
+    min-width: 1175px;
+    display: flex;
+    flex-direction: column;
+    height: 655px;
+    margin-top:100px;
+}   
+.latecontainer {
+    height: 535px;
+    width: 1172.5px;
+    margin: auto;
+    
+}
+.agcera { 
+    width: 1172px;
+    margin-top:35px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 26px;
+}
+.newsbox { 
+    display: flex;
+    width: 572px;
+    height: 200px;
+    border: 1px solid #ECF0F1;
+}
+.firstnews { 
+    width: 300px;
+    background-color: #CCCCCC;
+    position: relative;
+    
+}
+.secondnews{
+    width: 272px;
+position: relative;
+}
+    .featured.news{ 
+        float:left;
+    }
+.firstgrid { 
+    width: 50px;
+    height: 100%;
+    left: 0%;
+   
+    display: grid;
+    grid-template-rows: 40px 40px 40px 71px;
+    grid-template-columns: 40px;
+    grid-row-gap: 2.5px;
+}
+.boxgrid.first {
+    background-color: #1ABC9C;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.boxgrid.second {
+background-color: #3A3E4A;
+text-align: center;
+line-height: 40px;
+}
+.boxgrid.third {
+    background-color: #686D80;
+    text-align: center;
+    line-height: 40px;
+}
+.boxgrid.fourth {
+    background-color: #686D80;
+    font-size:18px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+
+}
+.boxgrid.fourth span {
+    font-size: 14px;
+}
+.padder { 
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 16.4px;
+}
+.padder h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+.padder h6 { 
+    font-size: 15px;
+    line-height: 27.2px;
+    font-weight: 400;
+    color: #34495E;
+}
+.padder p { 
+    color: #A1B1BC;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 4px;
+}
+.firstnews:hover {
+    background-color: #1ABC9C;
+}
+.firstnews:hover .boxgrid.first {
+    background-color: #17181B;
+}
+.secondnews:hover { 
+ 
+    background-color: #34495E;
+}
+.secondnews:hover h5, .secondnews:hover h6 {
+    color: white;
+}
+
+
+.blacktion {
+    height: 695px;
+    position: relative;
+    width : 100%;
+    background-color: black;
+}   
+.leks {
+    margin: auto;
+    width: 631px;
+    height: 695px;
+}
+.flexeni { 
+     color: white;
+    display: flex;
+    flex-direction: column;
+}
+.flexeni h3{
+    font-size: 30px;
+    font-weight: 300;
+   text-align: center;
+   margin-top: 89px;
+}
+.flexeni span { 
+    font-weight: 600;
+}
+.flexeni p { 
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 6px;
+    font-weight:300;
+}
+.vitombutton { 
+    display: flex;
+    padding-top: 19px;
+    
+    margin: auto;
+}
+.vitombutton div { 
+    width: 170px;
+    height: 45px;
+
+}   
+.rightangle,.leftangle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    background-color: #2C3E50;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.rightangle .fa {
+    font-size: 40px;
+    color: white;
+    line-height: 60px;
+    font-weight: 600;
+   
+}
+.leftangle .fa {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    line-height: 60px;
+   
+}
+.rightangle {
+    right: 2%;
+}
+.leftangle {
+    left:2%;
+}
+.rightangle:hover,.leftangle:hover{
+    background-color: #17181B;
+}    
+
+.aquatton { 
+    background-color: #21C2F8;
+    color:white;
+    font-size: 15px;
+    text-align:center;
+    line-height: 45px;
+    font-weight: 600;
+}
+.transparento { 
+    border: 1px solid white;
+    font-size: 15px;
+    text-align:center;
+    line-height: 45px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.pic  { 
+    width: 100%;
+    height: 252px;
+    margin: auto;
+    padding-top: 77px;
+
+}
+.pic img {
+    margin-left: -277px;
+}

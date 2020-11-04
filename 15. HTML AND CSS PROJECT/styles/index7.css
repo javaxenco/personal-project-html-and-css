@@ -1,0 +1,229 @@
+.nav1 {
+    width: 100%;
+    height: 82px;
+    position: relative;
+    background-color: #1A1C27;
+    border: 1px solid #707070;
+    font-family: 'Lato', sans-serif;
+ 
+}
+.najvari {
+    width: 70%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.copyright a {
+    color: #1ABC9C;
+    }
+    .copyright {
+        font-size: 15px;
+        color: #A1B1BC;
+       
+    }
+    .navbar {
+        width: 719px;
+        
+    }
+
+   
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 75px;
+    }
+    .navbar ul li a {
+        color: #A1B1BC;
+        font-size: 15px;
+       
+    }
+    .navbar ul li a:hover {
+        color: #1ABC9C;
+    }
+    .real { 
+        width: 100%;
+        position: relative;
+        height: 614px;
+        margin-top: -57px;
+        background-color: #1A1C27;
+    }
+    .realcontainer {
+        display: flex;
+        justify-content: space-between;
+        width: 1174px;
+        margin: auto;
+    }
+    .realflex {
+        display: flex;
+       
+        width: 100%;
+        margin-top: 92px;
+    }
+    .aboutclass {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        width: 371px;
+        height: 192px;
+
+    }
+    .aboutclass h4 {
+        font-size: 24px;
+        color: white;
+    }
+    .foxthe {
+        font-size: 60px;
+        margin-top: 45px;
+        color: white;
+    }
+    .foxthe span {
+        color: #1ABC9C;
+    }
+    .trav {
+        font-size: 14px;
+        color: #A1B1BC;
+        line-height: 25px;
+        margin-top: 16px;
+    }
+    .email {
+        width: 370px;
+        height: 50px;
+        border: 1px solid #707070;
+        background-color: #222533;
+        margin-top: 30px;
+        
+    }
+    .email .pu {
+        color: #A1B1BC;
+        padding-left: 28px;
+        font-weight: 300;
+        line-height: 40px;
+       float: left;
+    }
+    
+    
+    .emailshi {
+        width: 50px;
+        height: 48px;
+        background-color: #1ABC9C;
+        float: right;
+        text-align:center;
+        line-height: 50px;
+    }
+    .abouto{
+        border-left: 5px solid #1ABC9C;
+        width: 140px;
+        text-align: center;
+        line-height: 0.85;
+        
+      }
+      .abouto span {
+          font-weight: 100;
+      }
+      .emailshi .fa{
+          color: white;
+          font-size: 24px;
+
+        }
+        .abouto {
+            font-size: 24px;
+            color: white;
+        }
+        .repeated {
+            flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        width: 371px;
+        height: 192px;
+        margin-left: 25px;
+
+        }
+        .abouto.dva {
+            width: 200px;
+        }
+        .boxunia {
+            display: flex;
+            width: 369px;
+            height: 102px;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .boxunia.kak{
+            margin-top: 62px;
+        }
+        .pirveli{
+            background-color: white;
+            width: 90px;
+            height: 90px;
+            
+
+        }
+        .gridenco {
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+            width: 371px;
+            height: 192px;
+            margin-left: 25px;
+        }
+        .enco{
+            font-size: 60px;
+            text-align: center;
+            line-height: 90px;
+            font-weight: 300;
+            color: white;
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+        .pirveli:hover{
+            background-color:#1ABC9C;
+        }
+        .pirveli:hover .enco{
+            display: block;
+        } 
+        .meore {
+            color: #A1B1BC;
+            font-size: 16px;
+            font-weight: bold;
+            width: 259px;
+            line-height: 23px;
+        }
+        .exlanaxe {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,1fr);
+            width: 370px;
+            margin-top: 63px;
+            grid-row-gap: 10px;
+            margin-left: 10px;
+            grid-column-gap: 10px;
+        }
+        .exlanaxe div {
+            width: 85px;
+            height: 85px;
+            background-color: white;
+            border: 1px solid #707070;
+        }
+        .exlanaxe div:hover {
+            background-color: #A1B1BC;
+            transform: scale(1.1);
+            border: 2px solid white;
+        }
+        .viewmore {
+            margin-top: 28px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #1ABC9C;
+        }
+      .foxthe img {
+          width: 20px;
+          height: 25px;
+          margin-bottom: 20px;
+      }

@@ -1,0 +1,444 @@
+main {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    margin-top: 93px;
+}
+
+.salesbox { 
+    width: 270px;
+    height: 562px;
+    border: 1px solid #E6E6E6;
+  
+    border-radius: 10px;
+
+}
+.firstbox { 
+    height: 368px;
+  
+}
+    .boxsection  {
+        position: relative;
+        width: 100%;
+       margin-top: 41px;
+    }
+.secondbox { 
+    height: 125px;
+    
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.thirdragac { 
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 248px;
+  
+    }
+    .model { 
+        font-size: 18px;
+        font-style: bold;
+        color: #2C3E50
+    }   
+    
+    .secondbox div { 
+        margin-left: 21.1px;
+    }
+    .flexo
+      {
+          display: flex;
+          justify-content: space-between;
+      
+          width: 1170px;
+          margin: auto;
+        
+         
+  }
+  .thirdragac div { 
+      height: 28px;
+      width: 105px;
+      background-color: #A1B1BC;
+      color: white;
+      font-size: 13px;
+      text-align: center;
+      border-radius: 3px;
+     line-height: 28px;
+    
+  }
+  .addtocart { 
+      padding-left: 10px;
+     
+  }
+ .featured { 
+     font-size: 36px;
+     font-weight: 300;
+    float: left;
+   
+ }
+ .headd {
+     
+    padding-bottom: 50px;
+    
+     width: 1171.4px;
+     height: 48px;
+     margin:auto;
+ }
+ .featured span {
+     font-weight: 900;
+     color: #34495E;
+ }
+ .salesbox:hover .secondbox {
+     background-color: #2c3e50;
+   
+    
+ }  
+ .salesbox:hover .secondbox div {
+    color: white;
+ }
+ .salesbox:hover .thirdbox {
+    background-color: #2c3e50;
+   
+}
+.salesbox:hover .thirdbox .addtocart { 
+    background-color: #1ABC9C;
+
+}
+.flexfox { 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1170px;
+    border: 1px #DFE8EA solid;
+    border-radius: 8px;
+    margin: auto;
+    height: 140px;
+}
+.sectionfox { 
+    margin-top: 200px;
+    position: relative;
+    width: 100%;
+}
+.iconcart { 
+    margin-left:31px;
+}
+.textfox { 
+    margin-left: 39.1px;
+}
+.textfox h3 { 
+    font-size: 24px;
+    font-style: bold;
+    color: #34495E;
+}
+.textfox p { 
+    font-size: 14px;
+    line-height: 25px;
+    color: #A1B1BC;
+    margin-top: 10.1px;
+}
+.textfox { 
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+.purchasebutton { 
+    margin-left: 26px;
+    width: 180px;
+    height: 60px;
+    background-color: #34495E;
+   
+    border: 1px solid #707070;
+    border-radius: 7px;
+}
+.purchasebutton p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+i { 
+   color: #1ABC9C;
+}
+#last { 
+    color: #707070;
+    
+}
+.price {
+    color: #2C3E50;
+    font-size: 20px;
+    margin-bottom:10px;
+}   
+    .sectiongrid { 
+        width: 100%;
+        height: 1066px;
+        margin-top: 51px;
+        display: flex;
+    }
+.griddiv  {
+    width: 1170px;
+    height: 1065px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+.horizontalboxes { 
+    display: flex;
+    margin-top: 10px;
+    width: 1170px;
+    height: 455px;
+  
+    justify-content: space-between;
+}
+.box1, .box2, .box3 { 
+    display: flex;
+    flex-direction: column;
+    width: 383px;
+    background-color: gray;
+   
+}
+.bigbox { 
+    background-color: #CCCCCC;
+    height: 600px;
+    width: 1170px;
+}
+.graybox {
+    height: 200px;
+    background-color: #CCCCCC;
+    position: relative;
+}
+.whitebox {
+    height: 205px;
+    background-color: #ECF0F1;
+}
+.cyanbox { 
+    height: 50px;
+    background-color: #1ABC9C;
+}
+.graybox:hover  {
+    height: 200px;
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+}
+.graybox:hover .plus {
+    display: block;
+}
+.whitebox:hover{ 
+    height: 205px;
+    background-color: #2C3E50;
+    cursor: pointer;
+        
+}
+.whitebox:hover h6 {
+    color: white;
+}
+.graybox img { 
+    display: none;
+}
+.graybox:hover img { 
+    display: block;
+}
+.cheat {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 76px;
+    
+    
+}
+.cheat i {
+    font-size: 35px;
+    color: #CCCCCC;
+}
+.graybox:hover .fa {
+    color: #FFFFFF;
+}
+.cyanbox:hover {
+    height: 50px;
+    background-color: #1E2A37;
+    cursor: pointer;
+}
+.plus {
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    border: 2px white solid;
+    text-align:center;
+    font-size: 48px;
+    color: white;
+    font-weight: 300;
+    line-height: 62px;
+    margin-left: 47px;
+    display:none;
+}
+.cyanbox2 img {
+    margin-left: 33px;
+    margin-top: 103px;
+}
+.horizontalboxes span { 
+    margin-left: 30px;
+    line-height: 50px;
+    font-size: 15;
+    font-weight: 300;
+    color: white;
+    letter-spacing: -0.3px;
+}
+.whitebox h6 { 
+    font-size: 18px;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-right: 120px;
+    margin-bottom: 15px;
+}
+.whitebox { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.whitebox p { 
+    color: #A1B1BC;
+   
+    line-height: 24.5px;
+    font-size: 14px;
+    margin: auto;
+}
+.paragraph1 { 
+    width: 322px;
+}
+.darkblue h6 { 
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-right: 120px;
+    margin-bottom: 15px;
+}
+.darkblue { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.darkblue p { 
+    color: #A1B1BC;
+   
+    line-height: 24.5px;
+    font-size: 14px;
+    margin: auto;
+}
+.paragraph1 { 
+    width: 322px;
+}
+.header2 { 
+     margin-right: 83px;
+}
+.bigboxdiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 785.7px;
+    margin-top: 238.8px;
+}
+.boxdivflex {
+    display: flex;
+}
+.bigboxdiv p { 
+    line-height: 10px;
+    font-size: 18px;
+    color:#2C3E50;
+    margin-top: 29.4px;
+
+}
+.bigboxdiv h3 { 
+    font-size: 60px;
+    color:#2C3E50;
+    font-weight: 300;
+    margin-left: -3px;;
+    
+    
+}
+.sami {
+    background-color: #17D8B2;
+    width: 48px;
+    height: 64px;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    line-height: 64px;
+    font-weight: bold;
+}
+.moredetail {
+    width: 150px;
+    height: 50px;
+    background-color: #2C3E50;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 29.2px;
+   
+}
+.arrowcontainer2 {
+    height: 35px;
+    width:82px;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+}
+.arrowcontainer2 div { 
+    width: 35px;
+    height: 35px;
+    border: 1px solid #CDD9E1;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .arrowcontainer2 div .fa {
+      font-size: 32px;
+      font-weight: 600;
+    color: #A1B1BC;
+  }
+
+
+.arrowcontainer2 div:hover {
+    
+    background-color: #2C3E50;
+}
+.arrowcontainer2 div:hover .fa {
+    color: white;
+}
+
+.arrowcontainer {
+    height: 35px;
+    width:82px;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+}
+.arrowcontainer div { 
+    width: 35px;
+    height: 35px;
+    border: 1px solid #CDD9E1;
+    border-radius: 5px;
+    text-align:center;
+  }
+  .arrowcontainer div .fa {
+      font-size: 32px;
+      font-weight: 900;
+    color: #A1B1BC;
+   
+  }
+  .arrowcontainer div:hover {
+    
+    background-color: #2C3E50;
+}
+.arrowcontainer div:hover .fa {
+    color: white;
+}
